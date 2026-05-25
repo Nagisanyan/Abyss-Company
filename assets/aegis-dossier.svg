@@ -1,0 +1,27 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 760 520" role="img" aria-labelledby="title desc">
+  <title id="title">Aegis dossier card</title>
+  <desc id="desc">Original dossier style visual for Aegis by Abyss Company.</desc>
+  <defs>
+    <pattern id="scan" width="12" height="12" patternUnits="userSpaceOnUse">
+      <path d="M0 0h12" stroke="#efe5cf" stroke-opacity=".07"/>
+    </pattern>
+  </defs>
+  <rect width="760" height="520" fill="#130f0d"/>
+  <rect width="760" height="520" fill="url(#scan)"/>
+  <rect x="36" y="36" width="688" height="448" fill="#1c1713" stroke="#efe5cf" stroke-opacity=".45" stroke-width="2"/>
+  <path d="M36 112h688M188 36v448M36 404h688" stroke="#efe5cf" stroke-opacity=".22" stroke-width="2"/>
+  <path d="M260 126h326l58 58v142l-58 58H260l-58-58V184z" fill="none" stroke="#b8201b" stroke-width="8"/>
+  <path d="M346 168h154l42 42v88l-42 42H346l-42-42v-88z" fill="none" stroke="#efe5cf" stroke-opacity=".72" stroke-width="5"/>
+  <path d="M423 170v170M304 254h238" stroke="#efe5cf" stroke-opacity=".28" stroke-width="5"/>
+  <g fill="#efe5cf" opacity=".78">
+    <rect x="62" y="64" width="92" height="12"/>
+    <rect x="62" y="140" width="76" height="8"/>
+    <rect x="62" y="168" width="96" height="8"/>
+    <rect x="62" y="196" width="58" height="8"/>
+    <rect x="62" y="432" width="92" height="12"/>
+    <rect x="220" y="428" width="230" height="10"/>
+    <rect x="220" y="454" width="172" height="10"/>
+    <rect x="520" y="428" width="142" height="10"/>
+  </g>
+  <path d="M596 76l42 36-42 36-42-36z" fill="#b8201b"/>
+</svg>
