@@ -1,0 +1,9 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512" role="img" aria-labelledby="title desc">
+  <title id="title">Abyss Company sigil</title>
+  <desc id="desc">Original abstract sigil mark for Abyss Company.</desc>
+  <rect width="512" height="512" fill="#0d0a09"/>
+  <path d="M256 44l174 102v220L256 468 82 366V146z" fill="none" stroke="#efe5cf" stroke-opacity=".82" stroke-width="16"/>
+  <path d="M256 112l112 70v148l-112 70-112-70V182z" fill="none" stroke="#b8201b" stroke-width="18"/>
+  <path d="M256 112v288M144 182l224 148M368 182L144 330" stroke="#efe5cf" stroke-opacity=".35" stroke-width="10"/>
+  <circle cx="256" cy="256" r="42" fill="#b8201b"/>
+</svg>
