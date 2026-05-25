@@ -1,0 +1,148 @@
+<!doctype html>
+<html lang="fr">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <meta
+      name="description"
+      content="Projets officiels presentes par Abyss Company : Aegis, Bastion et Oracle."
+    />
+    <title>Projets - Abyss Company</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Cinzel:wght@600;700;800&family=Inter:wght@400;500;600;700;800&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="styles.css" />
+  </head>
+  <body>
+    <header class="site-header">
+      <a class="brand" href="index.html#top" aria-label="Abyss Company accueil">
+        <span class="brand-mark">A</span>
+        <span>Abyss Company</span>
+      </a>
+
+      <button class="nav-toggle" type="button" aria-expanded="false" aria-controls="site-nav">
+        <span></span>
+        <span></span>
+        <span></span>
+      </button>
+
+      <nav class="site-nav" id="site-nav" aria-label="Navigation principale">
+        <a href="index.html">Accueil</a>
+        <a href="#aegis">Aegis</a>
+        <a href="#bastion">Bastion</a>
+        <a href="#oracle">Oracle</a>
+        <a class="nav-action" href="index.html#contact">Contact</a>
+      </nav>
+    </header>
+
+    <main id="top">
+      <section class="page-hero">
+        <div>
+          <p class="eyebrow">Abyss project archive</p>
+          <h1>Projets</h1>
+          <p class="hero-lead">
+            Les lignes principales d'Abyss Company sont presentees comme des
+            dossiers : chacune porte un role, un statut et une direction.
+          </p>
+        </div>
+      </section>
+
+      <section class="section project-detail" id="aegis" aria-labelledby="aegis-title">
+        <div class="project-detail-copy">
+          <p class="eyebrow">Dossier AC-A01 / actif</p>
+          <h2 id="aegis-title">Aegis</h2>
+          <p>
+            Aegis represente la ligne de protection et de gestion communautaire
+            d'Abyss Company. C'est le projet le plus avance et celui qui sert de
+            premier point public pour l'ecosysteme.
+          </p>
+          <ul class="status-list">
+            <li><strong>Statut</strong><span>Actif</span></li>
+            <li><strong>Priorite</strong><span>Haute</span></li>
+            <li><strong>Objectif</strong><span>Protection, gestion, archives</span></li>
+          </ul>
+        </div>
+        <img src="assets/aegis-dossier.svg" alt="Dossier visuel Aegis" />
+      </section>
+
+      <section class="section project-detail reverse" id="bastion" aria-labelledby="bastion-title">
+        <div class="project-detail-copy">
+          <p class="eyebrow">Dossier AC-B01 / concept</p>
+          <h2 id="bastion-title">Bastion</h2>
+          <p>
+            Bastion est imagine comme une extension defensive de l'identite
+            Abyss : un projet plus strict, plus oriente controle, surveillance et
+            stabilite des espaces communautaires.
+          </p>
+          <ul class="status-list">
+            <li><strong>Statut</strong><span>Concept</span></li>
+            <li><strong>Priorite</strong><span>Moyenne</span></li>
+            <li><strong>Objectif</strong><span>Defense, veille, stabilite</span></li>
+          </ul>
+        </div>
+        <img src="assets/abyss-sigil.svg" alt="Sigil Abyss pour Bastion" />
+      </section>
+
+      <section class="section project-detail" id="oracle" aria-labelledby="oracle-title">
+        <div class="project-detail-copy">
+          <p class="eyebrow">Dossier AC-O01 / recherche</p>
+          <h2 id="oracle-title">Oracle</h2>
+          <p>
+            Oracle regroupe la partie recherche d'Abyss Company. Cette ligne
+            sert a explorer des idees plus experimentales, sans tout exposer
+            publiquement des le depart.
+          </p>
+          <ul class="status-list">
+            <li><strong>Statut</strong><span>Recherche</span></li>
+            <li><strong>Priorite</strong><span>Variable</span></li>
+            <li><strong>Objectif</strong><span>Prototype, exploration, futur</span></li>
+          </ul>
+        </div>
+        <img src="assets/hero-abyss-industrial.svg" alt="Archive visuelle Oracle" />
+      </section>
+
+      <section class="section roadmap-section" aria-labelledby="project-roadmap-title">
+        <div class="section-heading">
+          <p class="eyebrow">Project flow</p>
+          <h2 id="project-roadmap-title">Ordre de construction.</h2>
+        </div>
+
+        <div class="timeline">
+          <article>
+            <span>1</span>
+            <h3>Aegis</h3>
+            <p>Finaliser la presentation publique et preparer la documentation.</p>
+          </article>
+          <article>
+            <span>2</span>
+            <h3>Bastion</h3>
+            <p>Clarifier le concept et definir ce qui le differencie d'Aegis.</p>
+          </article>
+          <article>
+            <span>3</span>
+            <h3>Oracle</h3>
+            <p>Garder la branche recherche plus libre, avec des annonces choisies.</p>
+          </article>
+          <article>
+            <span>4</span>
+            <h3>Abyss Site</h3>
+            <p>Ajouter les pages officielles, le support, les assets et le changelog.</p>
+          </article>
+        </div>
+      </section>
+    </main>
+
+    <footer class="site-footer">
+      <p>Abyss Company 2026</p>
+      <div class="footer-links">
+        <a href="index.html">Accueil</a>
+        <a href="#top">Retour en haut</a>
+      </div>
+    </footer>
+
+    <script src="script.js"></script>
+  </body>
+</html>
