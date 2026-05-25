@@ -1,0 +1,62 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1600 1000" role="img" aria-labelledby="title desc">
+  <title id="title">Abyss Company industrial archive</title>
+  <desc id="desc">Original dark industrial archive artwork for Abyss Company.</desc>
+  <defs>
+    <linearGradient id="bg" x1="0" x2="1" y1="0" y2="1">
+      <stop offset="0" stop-color="#080706"/>
+      <stop offset="0.58" stop-color="#17110d"/>
+      <stop offset="1" stop-color="#2a0908"/>
+    </linearGradient>
+    <radialGradient id="redGlow" cx="72%" cy="44%" r="50%">
+      <stop offset="0" stop-color="#b8201b" stop-opacity=".72"/>
+      <stop offset=".46" stop-color="#5e1110" stop-opacity=".38"/>
+      <stop offset="1" stop-color="#090706" stop-opacity="0"/>
+    </radialGradient>
+    <pattern id="grid" width="44" height="44" patternUnits="userSpaceOnUse">
+      <path d="M44 0H0V44" fill="none" stroke="#efe5cf" stroke-opacity=".08" stroke-width="1"/>
+    </pattern>
+    <filter id="paper">
+      <feTurbulence baseFrequency=".72" numOctaves="2" seed="12" type="fractalNoise"/>
+      <feColorMatrix type="saturate" values="0"/>
+      <feComponentTransfer>
+        <feFuncA type="table" tableValues="0 .18"/>
+      </feComponentTransfer>
+    </filter>
+  </defs>
+
+  <rect width="1600" height="1000" fill="url(#bg)"/>
+  <rect width="1600" height="1000" fill="url(#grid)"/>
+  <rect width="1600" height="1000" fill="url(#redGlow)"/>
+  <rect width="1600" height="1000" filter="url(#paper)" opacity=".42"/>
+
+  <g opacity=".78" stroke="#efe5cf" stroke-width="3" fill="none">
+    <path d="M1040 150h310l92 92v390l-92 92h-310l-92-92V242z"/>
+    <path d="M1100 226h190l56 56v306l-56 56h-190l-56-56V282z" opacity=".54"/>
+    <path d="M1195 220v428M1048 435h292" opacity=".24"/>
+  </g>
+
+  <g fill="#efe5cf" opacity=".72">
+    <rect x="120" y="148" width="360" height="18"/>
+    <rect x="120" y="196" width="250" height="10"/>
+    <rect x="120" y="224" width="310" height="10"/>
+    <rect x="120" y="252" width="190" height="10"/>
+    <rect x="120" y="314" width="510" height="2"/>
+    <rect x="120" y="356" width="420" height="12"/>
+    <rect x="120" y="386" width="530" height="12"/>
+    <rect x="120" y="416" width="360" height="12"/>
+  </g>
+
+  <g stroke="#b8201b" stroke-width="7" fill="none" opacity=".82">
+    <path d="M110 700h420"/>
+    <path d="M110 740h250"/>
+    <path d="M110 780h330"/>
+    <path d="M876 142l524 524"/>
+    <path d="M1420 170l-374 374"/>
+  </g>
+
+  <g transform="translate(980 728)">
+    <rect width="390" height="112" fill="#0c0908" stroke="#efe5cf" stroke-opacity=".62" stroke-width="2"/>
+    <path d="M22 24h104M22 52h286M22 80h232" stroke="#efe5cf" stroke-opacity=".58" stroke-width="8"/>
+    <path d="M330 28l32 28-32 28-32-28z" fill="#b8201b"/>
+  </g>
+</svg>
